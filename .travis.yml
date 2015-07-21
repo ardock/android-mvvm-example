@@ -16,8 +16,9 @@ android:
     - tool
     - build-tools-22.0.1
     - android-22
+    - extra-android-m2repository
+    - extra-google-m2repository
     - sys-img-armeabi-v7a-android-22
-    - extra
 
 # Emulator Management: Create, Start and Wait
 before_script:
