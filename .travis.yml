@@ -3,8 +3,6 @@ jdk: oraclejdk8
 env:
   matrix:
    - ANDROID_TARGET=android-22  ANDROID_ABI=armeabi-v7a
-  global:
-  - TERM=dumb
 
 android:
   components:
@@ -21,4 +19,4 @@ before_script:
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
 
-script: cd MVVM-Example && ./gradlew app:connectedAndroidTest --info -PdisablePreDex
+script: cd MVVM-Example && ./gradlew app:connectedAndroidTest --info
