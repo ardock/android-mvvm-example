@@ -12,7 +12,8 @@ cache:
 
 android:
   components:
-    - tools
+    - platform-tool
+    - tool
     - build-tools-22.0.1
     - android-22
     - sys-img-armeabi-v7a-android-22
