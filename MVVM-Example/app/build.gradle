@@ -76,8 +76,8 @@ dependencies {
     compile 'io.reactivex:rxandroid-framework:0.24.0'
 
     // Testing
-    androidTestCompile 'org.codehaus.groovy:groovy:2.4.2:grooid'
-    androidTestCompile 'com.andrewreitz:spock-android:1.2.0'
+    androidTestCompile 'org.codehaus.groovy:groovy:2.4.4:grooid'
+    androidTestCompile 'com.andrewreitz:spock-android:1.2.1'
     androidTestCompile 'com.android.support.test:testing-support-lib:0.1'
     androidTestCompile 'com.google.dexmaker:dexmaker:1.2'
     androidTestCompile('org.spockframework:spock-core:1.0-groovy-2.4') {
